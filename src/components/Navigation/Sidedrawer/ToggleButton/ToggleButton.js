@@ -1,7 +1,12 @@
 import React from 'react';
+import classes from './ToggleButton.css';
 
 const toggleButton = (props) => (
-  <p onClick={props.clicked}>MENU</p>
+  <div onClick={props.clicked} className={classes.ToggleButton}>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
 );
 
 export default toggleButton;
